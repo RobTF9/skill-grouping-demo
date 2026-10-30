@@ -1,0 +1,32 @@
+{
+  "name": "acme-skills",
+  "owner": {
+    "name": "Acme"
+  },
+  "plugins": [
+    {
+      "name": "Engineering",
+      "source": "./plugins/engineering",
+      "description": "Skills for engineers."
+    },
+    {
+      "name": "Writing",
+      "source": "./plugins/writing",
+      "description": "Skills for writers."
+    },
+    {
+      "name": "Research tools",
+      "source": {
+        "source": "github",
+        "repo": "acme/research-tools"
+      }
+    },
+    {
+      "name": "Design tools",
+      "source": {
+        "source": "url",
+        "url": "https://git.example.com/acme/design-tools.git"
+      }
+    }
+  ]
+}
