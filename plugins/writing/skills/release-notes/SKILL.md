@@ -1,6 +1,6 @@
 ---
 name: release-notes
-description: Turn a list of changes into release notes.
+description: Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes. Turn a list of changes into release notes.
 ---
 
 # Release notes

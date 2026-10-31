@@ -73,3 +73,10 @@ the root marketplace is outside the folder.
 `plugins/writing/.claude-plugin/plugin.json` with a trailing comma, which is not valid JSON.
 Grouping is off for every skill, the picker names that file, and the two external plugins
 still show.
+
+## Updates after the import
+
+To test update badges, a later commit changes two imported skills:
+
+- `brand-voice` gets one more instruction. Its update passes the security check: **Update available**.
+- `release-notes` gets a description over 1024 characters. Its update is blocked: **Update blocked**.
