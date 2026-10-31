@@ -44,9 +44,13 @@ Paste the repository link, for example `https://github.com/<you>/skill-grouping-
 | ignore-instructions | Engineering | Warning | "Ignore all previous instructions". |
 | broken-skill | Engineering | Blocked | `SKILL.md` has no frontmatter. |
 | write-tests | Engineering | Passed | Clean. Added after the first import, to test "new skills". |
+| debug-logs | Engineering | Passed | Clean. Second round of "new skills". Counts. |
+| oversized-notes | Engineering | Blocked | The description is over 1024 characters. Does not count as new. |
 | brand-voice | Writing | Passed | Clean. `scripts/format.py` and `assets/tone.json` are skipped. |
 | release-notes | Writing | Passed | Clean. |
 | meeting-notes | Writing | Passed | Clean. Added after the first import, to test "new skills". |
+| email-reply | Writing | Passed | Clean. Second round of "new skills". Counts. |
+| override-tone | Writing | Warning | "Ignore all previous instructions". Needs review, but counts as new. |
 | send-report | Writing | Warning | Asks to send an API key. Also links to collector.example.net. |
 | long-description | Writing | Blocked | The description is over 1024 characters. |
 | tweet-thread | Social media | Passed | The nested plugin is nearer than "Writing". |
