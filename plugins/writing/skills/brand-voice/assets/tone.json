@@ -1,1 +1,5 @@
-{"tone": "friendly"}
+{
+  "tone": "friendly",
+  "formality": "low",
+  "emoji": false
+}

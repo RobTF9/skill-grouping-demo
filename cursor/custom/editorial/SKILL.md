@@ -1,8 +1,27 @@
 ---
 name: editorial
-description: Edit a draft for clarity and tone.
+description: Edit a draft for clarity, length and tone.
 ---
 
 # Editorial
 
-Cut filler words. Keep the author voice.
+Cut filler words. Keep the voice of the author. Change only what makes the text clearer.
+
+## Steps
+
+1. Read the whole draft once without making changes.
+2. Write one sentence that says what the draft is for.
+3. Cut each paragraph that does not serve that sentence.
+4. Make long sentences short. One idea for each sentence.
+5. Put the most important point first in each paragraph.
+6. Read the draft aloud. Fix each place where you stumble.
+
+## Words to cut
+
+See [the word list](references/word-list.md).
+
+## What not to change
+
+- Facts, numbers and quotes.
+- Words that the author defined.
+- The order of a legal or safety notice.

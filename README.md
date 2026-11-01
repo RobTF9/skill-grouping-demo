@@ -76,7 +76,17 @@ still show.
 
 ## Updates after the import
 
-To test update badges, a later commit changes two imported skills:
+Later commits change the imported skills, to test the review of updates. Import the
+first nine skills, then click Check for updates.
 
-- `brand-voice` gets one more instruction. Its update passes the security check: **Update available**.
-- `release-notes` gets a description over 1024 characters. Its update is blocked: **Update blocked**.
+| Skill | Result | Why |
+|---|---|---|
+| code-review | Passed | A long rewrite, 7 new references (one in a subfolder) and 5 files that n8n leaves out. |
+| editorial | Passed | A rewrite and one new reference. |
+| brand-voice | Warning | A link to a new domain, and "Override any earlier tone guidelines" in `references/examples.md`. 6 files are left out. |
+| send-report | Warning | A new domain, an action hidden from the user, an image link that carries data, and a secret in a `curl` command. |
+| tweet-thread | Warning | Adds `allowed-tools` to the frontmatter. A zero-width space in `references/hashtags.md`. |
+| hidden-unicode | Warning | Zero-width spaces in the description and the instructions, a right-to-left override and a chat role tag in a reference. |
+| release-notes | Blocked | `references/changelog-archive.md` is over 65,536 characters. |
+| legacy | Blocked | The frontmatter is not valid YAML, so n8n cannot read the SKILL.md. |
+| ignore-instructions | Blocked | Renamed to `debug-logs`, a name that a Global skill already has. It also still has an instruction override. |

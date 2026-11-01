@@ -1,5 +1,5 @@
 ---
-name: legacy
+name: [legacy
 description: Outside the explicit Cursor skill paths, so it has no plugin.
 ---
 
