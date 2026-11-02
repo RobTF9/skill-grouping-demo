@@ -15,6 +15,11 @@
       "description": "Skills for writers."
     },
     {
+      "name": "Data",
+      "source": "./plugins/data",
+      "description": "Skills for people who work with data."
+    },
+    {
       "name": "Research tools",
       "source": {
         "source": "github",

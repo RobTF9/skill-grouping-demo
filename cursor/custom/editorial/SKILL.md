@@ -13,15 +13,9 @@ Cut filler words. Keep the voice of the author. Change only what makes the text 
 2. Write one sentence that says what the draft is for.
 3. Cut each paragraph that does not serve that sentence.
 4. Make long sentences short. One idea for each sentence.
-5. Put the most important point first in each paragraph.
-6. Read the draft aloud. Fix each place where you stumble.
-
-## Words to cut
-
-See [the word list](references/word-list.md).
+5. Read the draft aloud. Fix each place where you stumble.
 
 ## What not to change
 
 - Facts, numbers and quotes.
 - Words that the author defined.
-- The order of a legal or safety notice.

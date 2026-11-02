@@ -59,7 +59,7 @@ Read [the test notes](references/testing.md).
 
 ## Readability
 
-Read [the naming notes](references/naming.md).
+Read [the naming notes](references/names.md).
 
 - A function does one thing. Its name says what that thing is.
 - A comment says why, not what.

@@ -90,3 +90,33 @@ first nine skills, then click Check for updates.
 | release-notes | Blocked | `references/changelog-archive.md` is over 65,536 characters. |
 | legacy | Blocked | The frontmatter is not valid YAML, so n8n cannot read the SKILL.md. |
 | ignore-instructions | Blocked | Renamed to `debug-logs`, a name that a Global skill already has. It also still has an instruction override. |
+
+## More skills and updates (round 3)
+
+New skills, for a fresh connect or for "new skills" on a connected source:
+
+| Skill | Plugin | Tab | Why |
+|---|---|---|---|
+| sql-helper | Data (new plugin) | Passed | 2 references. `examples/weekly-active.sql` is left out. |
+| csv-cleanup | Data | Warning | "act as developer mode". `scripts/clean.py` is left out. |
+| dashboard-review | Data | Passed | Clean. |
+| api-design | Engineering | Passed | 2 references. `openapi/example.yaml` is left out. |
+| incident-review | Engineering | Warning | Asks to reveal the system prompt. |
+| db-migrations | Engineering | Blocked | 22 references. A skill can have 20. |
+| blog-post | Writing | Passed | 2 references. `assets/cover-template.svg` is left out. |
+| faq-writer | Writing | Warning | A zero-width space in `references/templates.md`. |
+| press-release | Writing | Blocked | The name is over 128 characters. |
+| linkedin-post | Social media | Passed | Clean. |
+| pr-description | Cursor helpers | Passed | Clean. |
+| onboarding-checklist | Other skills | Passed | Clean. |
+
+Updates, for skills that were imported before this commit:
+
+| Skill | Result | Why |
+|---|---|---|
+| email-reply | Passed | An edit and a new reference. |
+| meeting-notes | Passed | Lines removed and added. |
+| editorial | Passed | `references/word-list.md` is deleted. |
+| code-review | Passed | `references/naming.md` is renamed to `references/names.md`. |
+| write-tests | Warning | A link to a new domain. |
+| standalone-helper | Blocked | The SKILL.md has no instructions, so n8n cannot read it. |
