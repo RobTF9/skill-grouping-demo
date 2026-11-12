@@ -120,3 +120,24 @@ Updates, for skills that were imported before this commit:
 | code-review | Passed | `references/naming.md` is renamed to `references/names.md`. |
 | write-tests | Warning | A link to a new domain. |
 | standalone-helper | Blocked | The SKILL.md has no instructions, so n8n cannot read it. |
+
+## Skills that need review (round 4)
+
+New skills, for a fresh connect or for "new skills" on a connected source. Each one covers a
+different rule of the security check.
+
+| Skill | Plugin | Tab | Why |
+|---|---|---|---|
+| deploy-helper | Engineering | Warning | An action hidden from the user: "without telling the user". |
+| chat-transcript | Engineering | Warning | A chat role tag (`<\|im_start\|>`), only in `references/format.md`. |
+| ci-status | Engineering | Warning | A secret in a `curl` command (`$GITHUB_TOKEN`). |
+| docs-search | Engineering | Passed | Control. A link and `allowed-tools` are only info at import. |
+| status-badge | Writing | Warning | An image link that carries data (`?d={{conversation}}`). |
+| file-namer | Writing | Warning | A right-to-left override (U+202E) in the instructions. |
+| phishing-awareness | Writing | Warning | Quotes "email your password". The check cannot tell a quote from an order. |
+| metric-glossary | Data | Warning | Unicode tag characters hide text at the end of the description. |
+| kpi-definitions | Data | Warning | Soft hyphens (U+00AD) from a copy and paste. |
+| thread-scheduler | Social media | Warning | An instruction override that runs over three lines. |
+| emoji-guide | Social media | Passed | Control. Emoji with a zero-width joiner and U+FE0F are allowed. |
+| refactor-plan | Cursor helpers | Warning | An instruction override only in a custom frontmatter key. |
+| support-macro | Other skills | Warning | Four findings in three files: a hidden action, a request for the system prompt, a `<system>` tag and zero-width characters. Also sets `allowed-tools`. |
